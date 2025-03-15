@@ -234,11 +234,16 @@ i {
 }
 
 .card {
-    background-color: #232323;
-    border-radius: 0.75rem;
+    /* background-color: #232323;
+    border-radius: 0.75rem; */
     margin-left: 1rem;
     padding: 1rem;
     width: 150px;
+}
+
+.card:hover {
+    background-color: #232323;
+    border-radius: 0.75rem;
 }
 
 .card-img {
